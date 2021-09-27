@@ -14,12 +14,12 @@ sale_tax = 0.088
 
 
 customer_one_total = 0   #손님의 총 구매 가격
-customer_one_itemization = ""  #손님이 구매하신 물품의 설명\
+customer_one_itemization = ""  #손님이 구매하신 물품의 설명
 customer_one_total += lonely_loveseat_price
 customer_one_itemization += lovely_loveseat_description
 customer_one_total += luxurious_lame_price
 customer_one_itemization += luxurious_lamp_description
-customer_one_tax = customer_one_total*sale_tax
+customer_one_tax = customer_one_total*sale_tax #총 구매 가격의 판매세
 
 #receipt
 print("Customer One Items:")
